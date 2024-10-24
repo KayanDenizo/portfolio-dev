@@ -1,0 +1,65 @@
+header {
+    background: url(/assets/bg/Background_Intro.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.perfil {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+.image-container {
+    margin-top: 120px;
+    img {
+        width: 112px;
+        height: 112px;
+    }
+
+    margin-bottom: 56px;
+}
+
+.name-container {
+    margin-bottom: 8px;
+}
+
+.tech_area-container {
+    margin-bottom: 20px;
+}
+
+.desc-container {
+    max-width: 680px;
+}
+
+.techs-badge {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.tech-badge {
+    background-color: var(--gray-300);
+    padding: 8px 16px;
+    border-radius: 30px;
+    max-width: 1fr;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    p {
+        color: var(--gray-500);
+        font: var(--md-maven);
+    }
+
+}
+
+.arrow-down-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 94px;
+}

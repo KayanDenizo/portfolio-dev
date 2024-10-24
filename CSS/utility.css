@@ -1,0 +1,36 @@
+.subtitle-incon {
+    font: var(--subtitle-incon);
+}
+
+.lg-asap {
+    font: var(--lg-asap);
+}
+
+.sm-asap {
+    font: var(--sm-asap);
+}
+
+.md-maven {
+    font: var(--md-maven);
+}
+
+.sm-maven {
+    font: var(--sm-maven);
+}
+
+.red {
+    color: var(--red);
+    font-weight: normal;
+}
+
+.gray-400 {
+    color: var(--gray-400);
+}
+
+.gray-500 {
+    color: var(--gray-500);
+}
+
+.gray-600 {
+    color: var(--gray-600);
+}
