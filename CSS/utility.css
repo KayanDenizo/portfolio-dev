@@ -6,6 +6,10 @@
     font: var(--lg-asap);
 }
 
+.md-asap {
+    font: var(--md-asap);
+}
+
 .sm-asap {
     font: var(--sm-asap);
 }
@@ -20,6 +24,11 @@
 
 .red {
     color: var(--red);
+    font-weight: normal;
+}
+
+.purple {
+    color: var(--purple);
     font-weight: normal;
 }
 

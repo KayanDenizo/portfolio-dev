@@ -1,0 +1,48 @@
+.myprojects {
+    padding-top: 72px;
+    padding-bottom: 144px;
+    background-color: var(--gray-200);
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 8px;
+    padding-bottom: 56px;
+}
+
+.projects-container {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+ 
+    .projects {
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        gap: 24px;
+        flex-wrap: wrap;
+    }
+
+    .project {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 330px;
+        max-height: 280px;
+        background-color: #292C34;
+        border-radius: 12px;
+        img {
+            width: 306px;
+            margin: 12px 12px 20px 12px;
+            height: 156px;
+            border-radius: 8px;
+        }
+    }
+
+    .desc-container {
+        margin: 0 12px 17px;
+    }
+
+}
